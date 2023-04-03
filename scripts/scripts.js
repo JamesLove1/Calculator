@@ -22,7 +22,8 @@ let btnPluse = document.getElementsByTagName("button")[3];
 let btnMinus = document.getElementsByTagName("button")[7];
 let btnTimes = document.getElementsByTagName("button")[11];
 let btnDivide = document.getElementsByTagName("button")[14];
-let btnEquals = document.getElementsByTagName("button")[15];
+let btnDot = document.getElementsByTagName("button")[15]; 
+let btnEquals = document.getElementsByTagName("button")[16];
 let btnClear = document.getElementsByTagName("button")[12];
 let results_p = document.getElementsByTagName("p")[0];
 
@@ -62,6 +63,7 @@ btnMinus.addEventListener("click", a => { num.push("-"); input.value += "-"; });
 btnClear.addEventListener("click", a => { window.location.reload(); });
 btnTimes.addEventListener("click", a => { num.push("x"); input.value += "x"; });
 btnDivide.addEventListener("click", a => { num.push("/"); input.value += "/"; });
+btnDot.addEventListener("click", a => { num.push("."); input.value += "."; });
 btnEquals.addEventListener("click", a => {
     num.push("=");
 
