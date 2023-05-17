@@ -17,6 +17,7 @@ body {
 button{
     font-size: 1.75em;
     border-radius: 10%;
+    padding: 0;
 }
 
 p {
@@ -46,12 +47,15 @@ input{
     background-color: white;
 }
 
-
-
 #Equals{
     grid-column-start: 3;
     grid-column-end: 5;
 }
+
+/* .col4{
+    grid-column-start: 4;
+    grid-column-end: 5;
+} */
 
 /* #right-hand-side {
     grid-column-start: 4;
@@ -86,3 +90,7 @@ div{
 
 
 /*ID*/
+
+@media screen and (max-width: 430px) {
+
+}
